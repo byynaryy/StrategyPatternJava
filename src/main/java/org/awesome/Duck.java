@@ -3,12 +3,14 @@ package org.awesome;
 public class Duck {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
-    performFly() {
+    public void performFly() {
         flyBehavior.fly();
     }
-    performQuack() {
+    public void performQuack() {
         quackBehavior.quack();
     }
-    swim();
-    display();
+    //swim();
+    public void display() {
+        System.out.println("Duck");
+    }
 }
