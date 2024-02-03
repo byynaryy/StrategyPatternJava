@@ -2,7 +2,7 @@ package org.awesome;
 
 public class FlyNoWay implements FlyBehavior{
     @Override
-    public void Fly() {
+    public void fly() {
         System.out.println("I can't fly");
     }
 }

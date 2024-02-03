@@ -3,10 +3,10 @@ package org.awesome;
 public class Duck {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
-    public void performFly() {
+    public void doFly() {
         flyBehavior.fly();
     }
-    public void performQuack() {
+    public void doQuack() {
         quackBehavior.quack();
     }
     //swim();

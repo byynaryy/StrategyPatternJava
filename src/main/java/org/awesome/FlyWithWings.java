@@ -2,7 +2,7 @@ package org.awesome;
 
 public class FlyWithWings implements FlyBehavior {
     @Override
-    public void Fly() {
+    public void fly() {
         System.out.println("I'm flying!!!");
     }
 }
