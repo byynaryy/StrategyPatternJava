@@ -1,4 +1,6 @@
-package org.awesome;
+package org.awesome.behaviors.fly.implementation;
+
+import org.awesome.behaviors.fly.FlyBehavior;
 
 public class FlyWithWings implements FlyBehavior {
     @Override

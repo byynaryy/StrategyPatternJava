@@ -2,6 +2,9 @@ package org.awesome;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Duck harlequin = new HarlequinDuck();
+        harlequin.doQuack();
+        harlequin.doFly();
+        harlequin.display();
     }
 }

@@ -1,5 +1,8 @@
 package org.awesome;
 
+import org.awesome.behaviors.fly.FlyBehavior;
+import org.awesome.behaviors.quack.QuackBehavior;
+
 public abstract class Duck {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
@@ -15,4 +18,5 @@ public abstract class Duck {
         System.out.println("All ducks float, even decoys!");
     }
     public abstract void display();
+
 }

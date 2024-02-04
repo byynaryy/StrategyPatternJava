@@ -1,4 +1,6 @@
-package org.awesome;
+package org.awesome.behaviors.quack.implementation;
+
+import org.awesome.behaviors.quack.QuackBehavior;
 
 public class Squeak implements QuackBehavior {
     @Override
